@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/hello.dir/src/main.cpp.o -o hello   -L/home/winter/study/cmakeproject/one/build/module  -Wl,-rpath,/home/winter/study/cmakeproject/one/build/module ../module/libmodule.so 

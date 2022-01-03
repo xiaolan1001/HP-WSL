@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../module/include/utils/utils.h
+iostream
+-
+
+/home/winter/study/cmakeproject/one/process/src/main.cpp
+iostream
+-
+utils.h
+/home/winter/study/cmakeproject/one/process/src/utils.h
+
